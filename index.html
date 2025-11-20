@@ -177,6 +177,9 @@
       color: var(--muted);
       font-size: 18px;
       line-height: 1.8;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 20px;
     }
 
     .ach-item {
@@ -184,7 +187,6 @@
       padding: 15px;
       border-radius: 6px;
       border-left: 4px solid var(--accent);
-      margin-bottom: 15px;
     }
   </style>
 </head>
@@ -251,14 +253,18 @@
   <section class="achievements" id="achievements">
     <h2>Achievements</h2>
 
-    <div class="ach-list">
-      <div class="ach-item">• Sayawit Champion- 2017</div>
+    <div class="ach-list" style="
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    ">
+      <div class="ach-item">• Sayawit Champion - 2017</div>
       <div class="ach-item">• Drum and Lyre 3rd Place - 2017</div>
-      <div class="ach-item">• Baguio Colleges of Technology Training in Office Productivity and Multimedia (Microsoft Word, PowerPoint, Excel and HTML- 2019</div>
-      <div class="ach-item">• Speaker and Facilitator (Development Program for Student Assistants Growth Hub - Communication Literacy)- 2025</div>
-    </div></div>
+      <div class="ach-item">• BCT Training in Office Productivity & Multimedia (MS Word, PPT, Excel, HTML) - 2019</div>
+      <div class="ach-item">• Work Immersion- 2025</div>
+      <div class="ach-item">• Speaker & Facilitator (Student Assistants Growth Hub - Communication Literacy)  - 2025</div>
     </div>
-  </section>
+    </section>
 
 </body>
 </html>
